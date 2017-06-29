@@ -118,6 +118,6 @@ int main()
 	system("pause");//when gameover leave info on screen until user presses key
 	return 0;
 
-}//current error: clear page, make animation/ computer move more seamless
+}//current error: clear page, make animation/ computer move more seamless, skip has issues
 //do: prompts, highscore
 //issues: can't open file, no gameovber sentinel, valid move has issues sometimes
