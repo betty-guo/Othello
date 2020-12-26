@@ -1,14 +1,8 @@
 // Othello1.cpp : Defines the entry point for the console application.
-//Betty Guo
-//ICS 3UI Summative
-//17/06/15
-//Mr Damian
 
-#include "stdafx.h"
 #include "othello1.h"
 #include <string>
 #include <vector>
-#include "windows.h"
 #include <fstream>//file stream
 #include <algorithm>//includes sort
 #include <iomanip>//setw
@@ -187,7 +181,6 @@ void Board::reset()
 
 bool Board::displayBoard (bool markers)
 {
-	Sleep(500);//timeout for displaying
 	system("cls");//clear screen for animation
 	PlayerCanMove = markers;
 	bool any = false;//any moves available
@@ -649,7 +642,6 @@ int Board::writeHighScore(void)//sort and write new highscore from game onto fil
 	//SORTING ENDS------------------------------------------------------------------------------------
 	
 	printHighScore();//prints onto screen
-	Sleep(3000);
 	//WRITING INTO FILE-------------------------------------------------------------------------------
 
 	ofstream ofs;

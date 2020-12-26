@@ -1,13 +1,7 @@
 // Othello.cpp : Defines the entry point for the console application.
-//Betty Guo
-//ICS 3UI Summative
-//17/06/15
-//Mr Damian
 
-#include "stdafx.h"
 #include <iostream>
 #include "othello1.h"
-#include "windows.h"
 #include <string>
 using namespace std;
 

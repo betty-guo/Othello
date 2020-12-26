@@ -1,5 +1,0 @@
-TESTING|8%1*
-Hey|2%0*
-TESTING1|6%5*
-Betty|1%2*
-Test1|0%1*
